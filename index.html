@@ -1,3 +1,45 @@
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 
 <html>
@@ -86,11 +128,15 @@
 
 </style>
 
-<button onclick="msc()" ondblclick="playAudio()" type="button" id="button">Press</button>
+<button  onclick="playAudio()" type="button" id="button">Press</button>
 
 <h2>Click the button.</h2>
 
 <script>
+
+var x = document.getElementById("bcmusic");
+
+x.play();
 
 var xy = document.getElementById("scary"); 
 
@@ -112,21 +158,16 @@ function playAudio() {
 
 } 
 
-function msc() {
+/**function msc() {
 
   document.querySelector('h2').innerHTML = "<h3>! <I>Double click the button </I>!</h3>";
 
-var x = document.getElementById("bcmusic");
-
-x.play();
-
   
 
-}
+}**/
 
 </script>
 
 </body>
 
 </html>
-
